@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scrollspy</title>
+    <style>
+        #section1{
+            background-color: lightblue;
+            font-style: italic;
+            
+        }
+        #section2{
+            background-color:lightgreen;
+            font-style: initial;
+        }
+    </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body data-spy="scroll" data-target=".navbar" dataoff-set="50">
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+                <ul class="dropdown-menu">
+   </nav>
+   <div id="section1" class="container fluid">
+    <h1>Section 1</h1>
+    <h1>India</h1>
+    <h4>India, officially the Republic of India is a country in South Asia. It is the
+    seventh-largest country by area; the most populous country from June 2023 and from the time of its independence
+    in 1947, the world's most populous democracy.Bounded by the Indian Ocean on the south, the Arabian Sea on
+    the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west; China,
+    Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of
+    Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar, and
+    Indonesia.
+    India, officially the Republic of India is a country in South Asia. It is the
+    seventh-largest country by area; the most populous country from June 2023 and from the time of its independence
+    in 1947, the world's most populous democracy.Bounded by the Indian Ocean on the south, the Arabian Sea on
+    the southwest, and the Bay of Bengal on the southeast, it shares land borders with Pakistan to the west; China,
+    Nepal, and Bhutan to the north; and Bangladesh and Myanmar to the east. In the Indian Ocean, India is in the vicinity of
+    Sri Lanka and the Maldives; its Andaman and Nicobar Islands share a maritime border with Thailand, Myanmar, and
+    Indonesia.
+    </h4>
+   </div>
+   <div id="section2" class="container fluid">
+    <h1>Section2</h1>
+    <h1>Australia</h1>
+    <h4>Australia, officially the Commonwealth of Australia,is a country comprising the mainland of the Australian
+    continent, the island of Tasmania, and numerous smaller islands. Comprising six states and ten territories,
+    Australia has a total area of 7,688,287 km2 (2,968,464 sq mi), making it the sixth-largest country in the world and the
+    largest country by area in Oceania. It is the world's oldest, flattest, and driest inhabited continent,
+    with some of the least fertile soils. It is a megadiverse country, and its size gives it a wide variety of
+    landscapes and climates including deserts and tropical rainforests.
+    Australia, officially the Commonwealth of Australia,is a country comprising the mainland of the Australian
+    continent, the island of Tasmania, and numerous smaller islands. Comprising six states and ten territories,
+    Australia has a total area of 7,688,287 km2 (2,968,464 sq mi), making it the sixth-largest country in the world and the
+    largest country by area in Oceania. It is the world's oldest, flattest, and driest inhabited continent,
+    with some of the least fertile soils. It is a megadiverse country, and its size gives it a wide variety of
+    landscapes and climates including deserts and tropical rainforests.</h4>
+   </div>
+</body>
+</html>
